@@ -1,51 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
-body{
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+*{
     margin: 0;
     padding: 0;
-    width: 100%;
-    background-color: hsl(277, 79%, 94%);
-    font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
 }
-.bodyImg svg{
-    height: auto;
+body{
     width: 100%;
+    font-family: 'Hanken Grotesk', sans-serif;
+    overflow: hidden;
 }
 .card{
-    position: relative;
-    bottom: 140px;
-    width: 500px;
-    margin: auto;
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 5%;
-}
-.container {
-    width: 90%;
-    margin:auto;
-}
-.title{
     display: flex;
-    padding-top: 20px;
-    align-content: center;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    max-width: 600px;
+    height: 400px;
+    margin: 70px auto 0 auto;
 }
-.title h1{
-    margin: 0 0 ;
-    padding-left: 10px;
-    font-weight: 700;
-    font-size: 40px;
+.container-1{
+    text-align: center;
+    background-color: #6340FC;
+    border-radius: 5%;
+    align-items: center;
+    color: #FCFEFE;
+    /* position: relative;
+    left: 13px; */
 }
-.list{
+.container-1,.container-2{
+    padding: 0 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+}
+.container-1 h1{
+    font-weight: 800;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.container-1 p,
+.container-1 h2{
+    color: #CFCBFF;
+    padding-bottom: 10px;
+}
+.circle{
+    background-color: #4828D5;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0,0,0.1) inset,
+    15px 25px 10px rgba(0, 0,0,0.05),
+    15px 20px 20px rgba(0, 0,0,0.05);
+}
+.circle h1{
+    font-weight: 800;
+    font-size: 60px;
+    color: hsl(0, 0%, 100%);
+}
+.container-2{
+    border-radius: 0 5% 5%  0%;
+    box-shadow:
+    15px 25px 10px rgba(0, 0,0,0.05),
+    15px 20px 20px rgba(0, 0,0,0.05);
+}
+.reaction,.visual,.verbal,.memory{
     display: flex;
     justify-content: space-between;
-    box-shadow: 0 1px 0 0 hsl(292, 14%, 79%);
+    padding: 10px 10px;
+    border-radius: 5px;
 }
-.list svg{
-    position: relative;
-    top: 15px;
+.reaction{
+    background-color: hsl(0, 74%, 93%);
+    color: hsl(0, 100%, 67%);
 }
-.list p{
-    font-weight: 400;
-    color:hsl(276, 7%, 72%) ;
+.memory{
+    background-color:hsl(39, 82%, 85%) ;
+    color: hsl(39, 100%, 56%c);
+}
+.verbal{
+    background-color: hsl(166, 68%, 83%);
+    color: hsl(166, 100%, 37%);
+}
+.visual{
+    background-color: hsl(234, 81%, 75%);
+    color: hsl(234, 85%, 45%);
+}
+.catagory{
+    display: flex;
+}
+.button{
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    padding:10px 0 ;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: hsl(224, 30%, 27%);
 }
