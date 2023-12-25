@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: hsl(277, 79%, 94%);
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+.bodyImg svg{
+    height: auto;
+    width: 100%;
+}
+.card{
+    position: relative;
+    bottom: 140px;
+    width: 500px;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5%;
+}
+.container {
+    width: 90%;
+    margin:auto;
+}
+.title{
+    display: flex;
+    padding-top: 20px;
+    align-content: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.title h1{
+    margin: 0 0 ;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 0 0 hsl(292, 14%, 79%);
+}
+.list svg{
+    position: relative;
+    top: 15px;
+}
+.list p{
+    font-weight: 400;
+    color:hsl(276, 7%, 72%) ;
+}
